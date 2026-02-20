@@ -1,6 +1,7 @@
 package PrakAlgoData26_1E_09.Jobsheet2;
 
 public class mahasiswa09 {   
+
     String nama, nim, kelas;
     double ipk;
 
@@ -20,14 +21,18 @@ public class mahasiswa09 {
     }
 
     String nilaiKerja(){
-        if (ipk  >= 3.5) {
-            return "Kinerja sangat baik";
-        }else if (ipk >= 3) {
-            return "Kinerja baik";
-        }else if (ipk >= 2) {
-            return "Kinerja cukup";
+        if (ipk >= 0 && ipk <= 4) {
+            if (ipk  >= 3.5) {
+                return "Kinerja sangat baik";
+            }else if (ipk >= 3) {
+                return "Kinerja baik";
+            }else if (ipk >= 2) {
+                return "Kinerja cukup";
+            }else{
+                return "Kinerja kurang";
+            }
         }else{
-            return "Kinerja kurang";
+            return "IPK tidak valid. Harus antara 0.0 dan 4.0";
         }
     }
 }
