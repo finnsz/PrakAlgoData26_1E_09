@@ -1,6 +1,17 @@
 package PrakAlgoData26_1E_09.Jobsheet2;
 
 public class mahasiswa09 {   
+    
+    public mahasiswa09(){
+
+    }
+
+    public mahasiswa09(String nm, String nim, double ipk, String kls){
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
+    }
 
     String nama, nim, kelas;
     double ipk;
@@ -13,7 +24,7 @@ public class mahasiswa09 {
     }
 
     void ubahKelas(String kelasBaru){
-        kelas = kelasBaru;
+        kelas =  kelasBaru;
     }
 
     void updateIPK(double ipkBaru){
@@ -35,4 +46,5 @@ public class mahasiswa09 {
             return "IPK tidak valid. Harus antara 0.0 dan 4.0";
         }
     }
+
 }
