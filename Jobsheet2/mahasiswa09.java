@@ -1,7 +1,5 @@
 package PrakAlgoData26_1E_09.Jobsheet2;
 
-import javax.crypto.spec.IvParameterSpec;
-
 public class mahasiswa09 {   
     String nama, nim, kelas;
     double ipk;
@@ -13,12 +11,11 @@ public class mahasiswa09 {
         System.out.println("Kelas: " + kelas);
     }
 
-    void ubahKelas(){
+    void ubahKelas(String kelasBaru){
         kelas = kelasBaru;
-
     }
 
-    void updateIPK(){
+    void updateIPK(double ipkBaru){
         ipk = ipkBaru;
     }
 
