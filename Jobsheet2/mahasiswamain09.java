@@ -16,6 +16,7 @@ public class mahasiswamain09 {
         mahasiswa09 mhs2 = new mahasiswa09("Geraldi Rama Nugraha",  "254107020100", 3.67, "TI 1E"); 
         mhs2.updateIPK(3.30);
         mahasiswa09 mhsGeraldi = new mahasiswa09("Geraldi Rama Nugraha", "254107020100", 3.90, "TI 1E");
+        
     }
 
     

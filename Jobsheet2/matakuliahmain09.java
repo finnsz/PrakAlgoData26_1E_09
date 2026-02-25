@@ -16,5 +16,6 @@ public class matakuliahmain09 {
         mk2.tambahJam(2);
         mk2.ubahSKS(5);
         mk2.tampilinInformasi();
+        
     }
 }

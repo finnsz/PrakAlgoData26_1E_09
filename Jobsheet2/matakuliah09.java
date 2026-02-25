@@ -32,5 +32,6 @@ public class matakuliah09 {
         kodeMK = kode;
         this.sks = sks;
         jumlahJam = jmlJam;
+        
     }
 }
