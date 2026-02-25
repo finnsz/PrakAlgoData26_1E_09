@@ -44,6 +44,20 @@ object/instance dari class Mahasiswa terlebih dahulu melalui proses instansiasi.
 ## Hasil Running
 <img width="456" height="205" alt="image" src="https://github.com/user-attachments/assets/bced7926-8bf2-4689-83ef-7d9dc417fa4f" />
 
+### 1. Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
+1. Baris Kode: mahasiswa09 mhs1 = new mahasiswa09();
+Nama Objek: mhs1
+2. Baris Kode: mahasiswa09 mhs2 = new mahasiswa09("Geraldi Rama Nugraha",  "254107020100", 3.67, "TI 1E");
+Nama Objek: mhs2
+3. Baris Kode: mahasiswa09 mhsGeraldi = new mahasiswa09("Geraldi Rama Nugraha", "254107020100", 3.90, "TI 1E");
+Nama Objek: mhsGeraldi
+
+### 2. Bagaimana cara mengakses atribut dan method dari suatu objek?
+menggunakan format: namaObjek.namaAtribut
+
+### 3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
+karena data di dalam objek mhs1 telah diubah di antara kedua pemanggilan tersebut
+
 # 2.3 Percobaan 3: Membuat Konstruktor
 Waktu Percobaan: 60 Menit
 Pada percobaan ini, dilakukan pembuatan kode program untuk mengimplementasikan berbagai
@@ -76,3 +90,89 @@ Tidak harus berurutan.Method bersifat independen. Urutan hanya penting jika ada 
 
 ### 5. Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa!
 #mahasiswa09 mhsGeraldi = new mahasiswa09("Geraldi Rama Nugraha", "254107020100", 3.90, "TI 1E");
+
+# 2.4 Latihan Praktikum
+Waktu : 150 Menit
+1. Diberikan class diagram dari class MataKuliah sebagai berikut:
+<img width="470" height="228" alt="image" src="https://github.com/user-attachments/assets/65444986-8041-4df3-a2a6-49aeadeb9fb1" />
+Buat program untuk mengimplementasikan class MataKuliah berdasarkan class diagram di atas,
+yang terdiri dari:
+- Class MataKuliah (MataKuliah<NoAbsen>.java)
+- Class MataKuliahMain (MataKuliahMain<NoAbsen>.java)
+Pada class MataKuliahMain buatlah minimal 2 objek. Gunakan konstruktor default dan
+konstruktor berparameter saat mengintansiasi objek. Lalu panggil semua method yang sudah
+dibuat pada class MataKuliah.
+Penjelasan dari atribut dan method pada class MataKuliah tersebut adalah sebagai berikut:
+a. Atribut
+• kodeMK (String): kode unik untuk mata kuliah.
+• nama (String): nama lengkap dari mata kuliah
+• sks (int): SKS (Satuan Kredit Semester)
+• jumlahJam (int): jumlah total jam pertemuan per minggu untuk mata kuliah
+b. Method
+• tampilInformasi(): method ini digunakan untuk menampilkan semua informasi yang
+berkaitan dengan mata kuliah.
+• ubahSKS(int sksBaru): method ini memungkinkan pengubahan nilai SKS untuk mata
+kuliah. Setelah mengubah nilai, method ini memberi tahu pengguna bahwa SKS telah
+diubah.
+• tambahJam(int jam): method ini menambahkan jumlah jam tambahan ke jumlah jam
+yang sudah ada untuk mata kuliah.
+• kurangiJam(int jam): method ini berfungsi untuk mengurangi jumlah jam dari mata
+kuliah. Sebelum mengurangi, method ini melakukan pengecekan untuk memastikan
+bahwa jumlah jam yang tersisa cukup untuk dikurangi. Jika jumlah jam tidak mencukupi
+(jumlah jam awal lebih kecil dari jam pengurang), method ini akan memberi tahu
+pengguna bahwa pengurangan tidak dapat dilakukan. Jika pengurangan berhasil, method
+ini mengupdate jumlah jam dan mencetak nilai jumlah jam yang baru.
+
+## Code Program
+<img width="781" height="928" alt="image" src="https://github.com/user-attachments/assets/d0db2b61-e7bd-4ed6-9907-8cbec4823d02" />
+<img width="1127" height="574" alt="image" src="https://github.com/user-attachments/assets/cd8a2699-d39d-42fd-9e6d-b55844fd3a46" />
+
+## Hasil Running
+<img width="430" height="195" alt="image" src="https://github.com/user-attachments/assets/a706dd97-fece-49e5-933d-9124e5e30712" />
+
+# 2. Diberikan class diagram dari class Dosen sebagai berikut:
+<img width="463" height="253" alt="image" src="https://github.com/user-attachments/assets/3b01664f-fefc-441c-bbb2-9fe96ebf9b7f" />
+Buat program untuk mengimplementasikan class Dosen berdasarkan class diagram di atas, yang
+terdiri dari:
+- Class Dosen (Dosen<NoAbsen>.java)
+- Class DosenMain (DosenMain<NoAbsen>.java)
+Pada class DosenMain buatlah minimal 2 objek. Gunakan konstruktor default dan konstruktor
+berparameter saat mengintansiasi objek. Lalu panggil semua method yang sudah dibuat pada
+class Dosen
+Penjelasan dari atribut dan method pada class Dosen tersebut adalah sebagai berikut:
+a. Atribut
+• idDosen (String): id unik untuk setiap dosen.
+• nama (String): nama lengkap dari dosen.
+• statusAktif (boolean): menunjukkan apakah dosen tersebut aktif (true) atau tidak aktif
+(false) dalam menjalankan tugasnya.
+• tahunBergabung (int): tahun ketika dosen mulai bergabung dengan perguruan tinggi
+• bidangKeahlian (String): bidang keahlian dosen, yang menjelaskan spesialisasi atau fokus
+akademik dosen
+b. Method
+• tampilInformasi(): method ini digunakan untuk menampilkan informasi lengkap tentang
+dosen
+• setStatusAktif(status: boolean): method ini digunakan untuk mengatur status aktif
+dosen. Jika parameter status diatur ke true, berarti dosen tersebut menjadi aktif.
+Sebaliknya, jika false, dosen tersebut dinyatakan tidak aktif.
+• hitungMasaKerja(thnSkrg: int): method ini menghitung dan mengembalikan (me-returnkan) masa kerja dosen dalam tahun, berdasarkan tahun bergabung dan tahun saat ini
+(thnSkrg) yang menjadi parameter input method ini. Hasil perhitungan memberikan
+informasi tentang lamanya dosen bekerja di perguruan tinggi.
+• ubahKeahlian(bidang: String): method ini digunakan untuk mengubah bidang keahlian
+dosen.
+
+## Code Program
+<img width="676" height="700" alt="image" src="https://github.com/user-attachments/assets/740f0a5e-2b79-4ed7-9f59-4e0413000548" />
+<img width="919" height="404" alt="image" src="https://github.com/user-attachments/assets/b60d73d9-f4b3-43c4-9625-b064908a92f1" />
+
+## Hasil Running
+<img width="416" height="262" alt="image" src="https://github.com/user-attachments/assets/f46a5a53-a45c-4499-b0eb-03780eca9176" />
+
+
+
+
+
+
+
+
+
+
