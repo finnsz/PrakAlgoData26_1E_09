@@ -85,8 +85,51 @@ public matakuliah09(String kode, String nama, int sks, int jumlahJam) {
 ## 4. Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
 <img width="789" height="128" alt="image" src="https://github.com/user-attachments/assets/8d04154f-aa9d-43f6-a8a0-ea96761081c9" />
 
+# 3.5 Tugas
+
+## 1. Buatlah program untuk menampilkan informasi tentang dosen. 
+Program dapat menerima input
+semua informasi terkait dosen dan menampilkanya kembali ke layar. Program ini terdiri dari class
+Dosen<NoPresensi> dengan attribute/property sebagai berikut;
+String kode
+String nama
+Boolean jenisKelamin
+int usia
+dengan methode constructor sebagai berikut;
+public dosen(String kode, String nama, Boolean jenisKelamin, int usia) {
+…………….;
+…………….;
+}
+Kemudian buatlah class DosenDemo<NoPresensi> untuk proses input dan menampilkan data
+beberapa dosen. Gunakan looping dengan FOR untuk pembuatan array of object. Gunakan
+looping dengan FOREACH untuk menampilkan data ke layar. 
+
+### Code Program
+<img width="990" height="515" alt="image" src="https://github.com/user-attachments/assets/1f97e94c-b50e-403d-9c5d-af8da17d7007" />
+<img width="644" height="850" alt="image" src="https://github.com/user-attachments/assets/57c4adfb-2a14-4798-9236-f1afc3188126" />
 
 
+### Hasil Running
+<img width="279" height="524" alt="image" src="https://github.com/user-attachments/assets/55356fb7-fdce-4d07-8f4b-7e3f9ab2da27" />
 
+## 2. Tambahkan class baru DataDosen<NoPresensi> dengan beberapa method berikut
+a. dataSemuaDosen(Dosen[] arrayOfDosen)untuk menampilkan data semua dosen
+b. jumlahDosenPerJenisKelamin(Dosen[] arrayOfDosen) untuk menampilkan data
+jumlah dosen per jenis kelamin (Pria / Wanita)
+c. rerataUsiaDosenPerJenisKelamin(Dosen[] arrayOfDosen) untuk menampilkan
+rata-rata usia dosen per jenis kelamin (Pria / Wanita)
+d. infoDosenPalingTua(Dosen[] arrayOfDosen) untuk menampilkan data dosen paling
+tua
+e. infoDosenPalingMuda(Dosen[] arrayOfDosen) untuk menampilkan data dosen paling
+muda
+Semua method tersebut harus bisa dipanggil/ditest dari class DosenDemo
+
+## Kode Program
+<img width="566" height="842" alt="image" src="https://github.com/user-attachments/assets/aff5f067-2627-482c-bc04-0a9c4a2ad177" />
+<img width="613" height="301" alt="image" src="https://github.com/user-attachments/assets/a1a763d8-f9ca-4424-9291-26ff612bd90f" />
+
+
+## Hasil Running
+<img width="314" height="671" alt="image" src="https://github.com/user-attachments/assets/66cf4af3-b145-470f-9d47-41f458022124" />
 
 
