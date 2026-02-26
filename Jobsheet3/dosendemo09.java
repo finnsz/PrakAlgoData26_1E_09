@@ -27,6 +27,7 @@ public class dosendemo09 {
             System.out.println("------------------------");
 
         }
+        
         for (dosen09 d : arrDosen09) {
 
             System.out.println("Kode\t\t: " + d.kode);
