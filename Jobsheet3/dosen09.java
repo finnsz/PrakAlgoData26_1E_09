@@ -5,7 +5,6 @@ public class dosen09 {
     int usia;
 
     public dosen09(){
-
     }
 
     public dosen09(String kode, String nama, String jenisKelamin, int usia){
