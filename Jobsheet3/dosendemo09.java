@@ -25,16 +25,18 @@ public class dosendemo09 {
             arrDosen09[i].usia = sc.nextInt();
             sc.nextLine();
             System.out.println("------------------------");
-
+            
         }
-        
-        for (dosen09 d : arrDosen09) {
-
-            System.out.println("Kode\t\t: " + d.kode);
-            System.out.println("Nama\t\t: " + d.nama);
-            System.out.println("Jenis Kelamin\t: " + d.jenisKelamin);
-            System.out.println("Usia\t\t: " + d.usia + " tahun");
-            System.out.println("------------------------");
-        }
+        System.out.println();
+        datadosen09 data = new datadosen09();
+        data.dataSemuaDosen(arrDosen09);
+        System.out.println();
+        data.jumlahDosenPerJenisKelamin(arrDosen09);
+        System.out.println();
+        data.rerataUsiaDosenPerJenisKelamin(arrDosen09);
+        System.out.println();
+        data.infoDosenPalingTua(arrDosen09);
+        System.out.println();
+        data.infoDosenPalingMuda(arrDosen09);
     }
 }
