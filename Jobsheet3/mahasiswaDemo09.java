@@ -1,40 +1,30 @@
 package PrakAlgoData26_1E_09.Jobsheet3;
-
+import java.util.Scanner;
 public class mahasiswaDemo09 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
         mahasiswa09[] arrayOfMahasiswa09 = new mahasiswa09[3];
-        arrayOfMahasiswa09[0] = new mahasiswa09();
-        arrayOfMahasiswa09[0].nim = "254107020100";
-        arrayOfMahasiswa09[0].nama = "Geraldi Rama Nugraha";
-        arrayOfMahasiswa09[0].kelas = "TI 1E";
-        arrayOfMahasiswa09[0].ipk = 3.85f;
-        
-        arrayOfMahasiswa09[1] = new mahasiswa09();
-        arrayOfMahasiswa09[1].nim = "254108030200";
-        arrayOfMahasiswa09[1].nama = "Nini Trisnawati";
-        arrayOfMahasiswa09[1].kelas = "TI 1G";
-        arrayOfMahasiswa09[1].ipk = 3.7f;
+        String dummy;
 
-        arrayOfMahasiswa09[2] = new mahasiswa09();
-        arrayOfMahasiswa09[2].nim = "254107020153";
-        arrayOfMahasiswa09[2].nama = "Alexander Andriyana";
-        arrayOfMahasiswa09[2].kelas = "TI 1A";
-        arrayOfMahasiswa09[2].ipk = 3.51f;
+        for (int i = 0; i < arrayOfMahasiswa09.length; i++) {
+            arrayOfMahasiswa09[i] = new mahasiswa09();
 
-        System.out.println("NIM\t: " + arrayOfMahasiswa09[0].nim);
-        System.out.println("Nama\t: " + arrayOfMahasiswa09[0].nama);
-        System.out.println("Kelas\t: " + arrayOfMahasiswa09[0].kelas);
-        System.out.println("IPK\t: " + arrayOfMahasiswa09[0].ipk);
-        System.out.println("-----------------------------");
-        System.out.println("NIM\t: " + arrayOfMahasiswa09[1].nim);
-        System.out.println("Nama\t: " + arrayOfMahasiswa09[1].nama);
-        System.out.println("Kelas\t: " + arrayOfMahasiswa09[1].kelas);
-        System.out.println("IPK\t: " + arrayOfMahasiswa09[1].ipk);
-        System.out.println("-----------------------------");
-        System.out.println("NIM\t: " + arrayOfMahasiswa09[2].nim);
-        System.out.println("Nama\t: " + arrayOfMahasiswa09[2].nama);
-        System.out.println("Kelas\t: " + arrayOfMahasiswa09[2].kelas);
-        System.out.println("IPK\t: " + arrayOfMahasiswa09[2].ipk);
-        System.out.println("-----------------------------");
+            System.out.println("Masukkan Data Mahasiswa ke " + (i+ 1));
+            System.out.print("Nim\t: ");
+            arrayOfMahasiswa09[i].nim = sc.nextLine();
+            System.out.print("Nama\t: ");
+            arrayOfMahasiswa09[i].nama = sc.nextLine();
+            
+            System.out.print("Kelas\t: ");
+            arrayOfMahasiswa09[i].kelas = sc.nextLine();
+            System.out.print("IPK\t: ");
+            dummy = sc.nextLine();
+            arrayOfMahasiswa09[i].ipk = Float.parseFloat(dummy);
+            System.out.println("-----------------");
+        }
+        for (int i = 0; i < arrayOfMahasiswa09.length; i++) {
+            System.out.println("Data Mahasiswa ke- " + (i+1));
+            arrayOfMahasiswa09[i].cetakInfo();  
+        }
     }
 }
