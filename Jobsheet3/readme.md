@@ -28,11 +28,25 @@ kode ini adalah proses instansiasi sekaligus inisialisasi untuk satu data mahasi
 Class Mahasiswa khusus bertugas sebagai cetakan atau struktur datanya saja.
 Class MahasiswaDemo khusus bertugas mengeksekusi dan menguji programnya.
 
-# Menerima Input Isian Array Menggunakan Looping
+# 3.3 Menerima Input Isian Array Menggunakan Looping
 Pada praktikum ini kita akan mengubah hasil program dari praktikum 3.2 sehingga program dapat
 menerima input dan menggunakan looping untuk mengisikan atribut dari semua objek Mahasiswa
 
 ## Code Program
-
+<img width="567" height="628" alt="image" src="https://github.com/user-attachments/assets/4b32b775-8b6e-4612-b290-7efd85d51b86" />
 
 ## Hasil Running
+<img width="180" height="328" alt="image" src="https://github.com/user-attachments/assets/a31cb6a3-3186-417e-9fd1-5b254e66832c" />
+
+## 1. Tambahkan method cetakInfo() pada class Mahasiswa kemudian modifikasi kode program pada langkah no 3.
+mahasiswaDemo.java
+
+<img width="658" height="79" alt="image" src="https://github.com/user-attachments/assets/98b744ca-9839-4792-95ef-63f91b9921e9" />
+
+mahasiswa.java
+
+<img width="547" height="205" alt="image" src="https://github.com/user-attachments/assets/33615a96-e494-4f12-b20f-d72bd0aa8392" />
+## 2. Misalkan Anda punya array baru bertipe array of Mahasiswa dengan nama myArrayOfMahasiswa. Mengapa kode berikut menyebabkan error?
+<img width="802" height="155" alt="image" src="https://github.com/user-attachments/assets/0a3cfa95-157c-40dd-b581-b9d22182d27d" />
+Karena 
+
