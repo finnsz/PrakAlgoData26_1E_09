@@ -52,7 +52,7 @@ mahasiswa.java
 
 Karena objek belum di instansiasi
 
-# Constructor Berparameter
+# 3.4 Constructor Berparameter
 Pada praktikum ini kita akan melakukan instansiasi variable array of object dengan
 menggunakan constructor berparameter.
 
