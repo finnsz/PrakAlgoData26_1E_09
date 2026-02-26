@@ -75,12 +75,15 @@ public matakuliah09(String kode, String nama, int sks, int jumlahJam) {
 } `
 
 ## 2. Tambahkan method tambahData() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menambahkan data Matakuliah
-
+<img width="920" height="188" alt="image" src="https://github.com/user-attachments/assets/9a3ca7d1-1dad-4316-a68f-3e6525a58e01" />
+<img width="838" height="78" alt="image" src="https://github.com/user-attachments/assets/f3c25bfa-f30c-4136-8c31-b399d24eac03" />
 
 ## 3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian gunakan methodtersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar
-
+<img width="709" height="120" alt="image" src="https://github.com/user-attachments/assets/79a577e5-fcbd-45f9-a31a-40283f8dae95" />
+<img width="717" height="222" alt="image" src="https://github.com/user-attachments/assets/2158ecaf-8c86-4b16-8092-37e6d07a91ac" />
 
 ## 4. Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
+<img width="789" height="128" alt="image" src="https://github.com/user-attachments/assets/8d04154f-aa9d-43f6-a8a0-ea96761081c9" />
 
 
 
