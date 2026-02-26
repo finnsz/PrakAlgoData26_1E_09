@@ -46,7 +46,44 @@ mahasiswaDemo.java
 mahasiswa.java
 
 <img width="547" height="205" alt="image" src="https://github.com/user-attachments/assets/33615a96-e494-4f12-b20f-d72bd0aa8392" />
+
 ## 2. Misalkan Anda punya array baru bertipe array of Mahasiswa dengan nama myArrayOfMahasiswa. Mengapa kode berikut menyebabkan error?
 <img width="802" height="155" alt="image" src="https://github.com/user-attachments/assets/0a3cfa95-157c-40dd-b581-b9d22182d27d" />
-Karena 
+
+Karena objek belum di instansiasi
+
+# Constructor Berparameter
+Pada praktikum ini kita akan melakukan instansiasi variable array of object dengan
+menggunakan constructor berparameter.
+
+## Code Program
+<img width="577" height="280" alt="image" src="https://github.com/user-attachments/assets/e0ebbeb1-7e20-4f31-bcec-4932970c2878" />
+<img width="618" height="658" alt="image" src="https://github.com/user-attachments/assets/c1a04b11-33f5-455d-b3f1-0537d56ac02f" />
+
+## Hasil Running
+<img width="274" height="444" alt="image" src="https://github.com/user-attachments/assets/c1f0c347-99ec-415e-bc9b-aedeeb6a7691" />
+
+## 1. Apakah suatu class dapat memiliki lebih dari 1 constructor? Jika iya, berikan contohnya
+Iya bisa,
+`public matakuliah09() {
+}
+public matakuliah09(String kode, String nama, int sks, int jumlahJam) {
+    this.kode = kode;
+    this.nama = nama;
+    this.sks = sks;
+    this.jumlahJam = jumlahJam;
+} `
+
+## 2. Tambahkan method tambahData() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menambahkan data Matakuliah
+
+
+## 3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian gunakan methodtersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar
+
+
+## 4. Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
+
+
+
+
+
 
