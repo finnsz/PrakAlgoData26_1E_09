@@ -1,5 +1,4 @@
 package PrakAlgoData26_1E_09.Jobsheet4;
-
 import java.util.Scanner;
 
 public class mainPangkat {
