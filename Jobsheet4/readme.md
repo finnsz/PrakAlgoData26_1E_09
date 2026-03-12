@@ -84,3 +84,11 @@ if(l == r) { return arr[l]; }. Ini adalah kondisi berhenti saat array sudah terp
 ### 5. Kesimpulan: 
 totalDC() bekerja dengan membelah array terus-menerus menjadi dua bagian hingga tersisa 1 elemen, lalu menjumlahkan pecahannya kembali ke atas secara bertahap untuk mendapatkan total akhir.
 
+## Latihan
+### Code Program
+<img width="1213" height="552" alt="image" src="https://github.com/user-attachments/assets/a5d21846-5cce-447e-9100-9f09fb73a56a" />
+<img width="760" height="983" alt="image" src="https://github.com/user-attachments/assets/b6494f39-8f30-4101-b616-2c1b8e68da92" />
+
+### Hasil Running
+<img width="441" height="91" alt="image" src="https://github.com/user-attachments/assets/25988d8c-7aa7-4cc7-ae64-5fd46d88d82b" />
+
