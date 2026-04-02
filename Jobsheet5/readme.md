@@ -41,3 +41,25 @@ data[j] > temp mengecek apakah nilai elemen yang sedang diperiksa (data[j]) lebi
 ### 4. Tujuan dari perintah data[j+1] = data[j]; pada Insertion Sort
 Untuk menggeser elemen array satu posisi ke kanan
 
+# 5.3 Praktikum 2- (Sorting Menggunakan Array of Object) 
+## Code Program
+<img width="859" height="704" alt="image" src="https://github.com/user-attachments/assets/e57ce5b6-ed80-4cc0-8cff-b127e9825fa7" />
+<img width="671" height="857" alt="image" src="https://github.com/user-attachments/assets/a34e1610-1267-4a3d-aba4-4b552a5d5c18" />
+<img width="1035" height="684" alt="image" src="https://github.com/user-attachments/assets/a8fdb038-fc52-432e-aaa5-cce774eec6e4" />
+
+## Hasil Running
+<img width="426" height="939" alt="image" src="https://github.com/user-attachments/assets/9c0e0cda-4aaa-4195-ae25-1a3f9dc38c5f" />
+
+## 5.3.4 Pertanyaan
+### 1. Analisis Perulangan Bubble Sort 
+a. Karena jika N-1 elemen sudah dipindah ke tempat yang benar, 1 elemen terakhir otomatis sudah pasti benar posisinya
+b. Agar program tidak mengecek ulang elemen di sebelah kanan yang sudah terurut pada tahap sebelumnya (lebih efisien)
+c. Perulangan i berjalan 49 kali, sehingga menempuh 49 Tahap pengurutan
+### 2. Code Program
+<img width="592" height="136" alt="image" src="https://github.com/user-attachments/assets/1ac46e73-94f2-4dcf-bba8-4d57b8d30d4d" />
+<img width="658" height="751" alt="image" src="https://github.com/user-attachments/assets/9714e40e-e92b-4ba2-8e5b-6e9fb131186c" />
+
+
+### Hasil Running
+<img width="328" height="471" alt="image" src="https://github.com/user-attachments/assets/9dd7ea94-69c1-4cdb-a345-f0b31eae9ccb" />
+
