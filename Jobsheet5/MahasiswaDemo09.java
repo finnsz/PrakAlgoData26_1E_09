@@ -27,8 +27,8 @@ public class MahasiswaDemo09 {
             list.tambah(new Mahasiswa09(nim, nama, kelas, ipk));
         }
 
-        System.out.println("\n--- Hasil Sorting (DESC) ---");
-        list.bubblesort();
+        System.out.println("\n--- Hasil Sorting (ASC) ---");
+        list.insertionSort();
         list.tampil();
     }
 }
