@@ -63,3 +63,12 @@ c. Perulangan i berjalan 49 kali, sehingga menempuh 49 Tahap pengurutan
 ### Hasil Running
 <img width="328" height="471" alt="image" src="https://github.com/user-attachments/assets/9dd7ea94-69c1-4cdb-a345-f0b31eae9ccb" />
 
+## Latihan praktikum
+## Code Program
+<img width="1181" height="607" alt="image" src="https://github.com/user-attachments/assets/47d243a9-05b3-4e93-9e5b-35b40687a56a" />
+<img width="649" height="927" alt="image" src="https://github.com/user-attachments/assets/a20fe18f-713d-4bec-9d85-09c18b289713" />
+<img width="762" height="654" alt="image" src="https://github.com/user-attachments/assets/70db1d4d-e426-4498-8152-cab4592838ee" />
+
+## Hasil Running
+<img width="271" height="804" alt="image" src="https://github.com/user-attachments/assets/157bc1aa-c553-4304-bc68-3ab13ce7536e" />
+<img width="277" height="394" alt="image" src="https://github.com/user-attachments/assets/5ae77e16-a210-456f-a106-e4ea65ab347f" />
