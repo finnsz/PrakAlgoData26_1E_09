@@ -1,5 +1,4 @@
 package CM1;
-
 public class Mahasiswa {
     String nama, prodi;
     int nim; 

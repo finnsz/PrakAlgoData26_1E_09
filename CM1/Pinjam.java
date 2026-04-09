@@ -1,5 +1,4 @@
 package CM1;
-
 public class Pinjam {
 
     Mahasiswa mhs;

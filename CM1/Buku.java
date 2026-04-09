@@ -1,5 +1,4 @@
 package CM1;
-
 public class Buku {
     String kodeBuku, judul;
     int tahunTerbit;

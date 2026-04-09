@@ -1,5 +1,4 @@
 package CM1;
-
 import java.util.Scanner;
 public class cm1Main {
     public static void main(String[] args) {
