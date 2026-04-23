@@ -13,3 +13,16 @@
 3. Pengecekan !isFull() sangat penting untuk memastikan bahwa array masih memiliki ruang kosong sebelum kita memasukkan data baru ke dalamnya. Jika kondisi if-else tersebut dihapus, program akan tetap memaksa memasukkan data meskipun stack sudah penuh
 4. <img width="661" height="200" alt="image" src="https://github.com/user-attachments/assets/05121499-5b1f-4683-9248-58e058bfcca9" />
 5. <img width="730" height="103" alt="image" src="https://github.com/user-attachments/assets/324bb962-1ac4-4c8f-a40c-f11f4957c25e" />
+
+# Percobaan 2: Konversi Nilai Tugas ke Biner 
+## Code Program
+<img width="526" height="341" alt="image" src="https://github.com/user-attachments/assets/052cff6d-fee6-44c4-a973-416bdb77ba5c" />
+<img width="442" height="876" alt="image" src="https://github.com/user-attachments/assets/2800b0bd-32a9-4071-8e00-aeee594bb9bb" />
+<img width="702" height="206" alt="image" src="https://github.com/user-attachments/assets/f8d96c73-e27a-4b54-9f70-a6c1e0cd1855" />
+
+## Hasil Running
+<img width="443" height="445" alt="image" src="https://github.com/user-attachments/assets/b3b47a14-c3b9-4917-8d86-787327dd4384" />
+
+## Pertanyaan
+1. Angka dibagi 2 berulang kali, lalu sisa baginya (0 atau 1) dimasukkan ke Stack. Karena Stack bersifat LIFO (terakhir masuk, pertama keluar), saat dikeluarkan urutannya otomatis menjadi bilangan biner yang benar dari kiri ke kanan.
+2. Hasilnya tetap sama asalkan angka yang dimasukkan positif. Namun, jika pengguna memasukkan angka negatif, outputnya akan error (angka minus ikut masuk ke stack). Kondisi > 0 lebih aman digunakan.
