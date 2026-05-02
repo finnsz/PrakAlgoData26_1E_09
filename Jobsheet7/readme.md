@@ -26,3 +26,13 @@
 ## Pertanyaan
 1. Angka dibagi 2 berulang kali, lalu sisa baginya (0 atau 1) dimasukkan ke Stack. Karena Stack bersifat LIFO (terakhir masuk, pertama keluar), saat dikeluarkan urutannya otomatis menjadi bilangan biner yang benar dari kiri ke kanan.
 2. Hasilnya tetap sama asalkan angka yang dimasukkan positif. Namun, jika pengguna memasukkan angka negatif, outputnya akan error (angka minus ikut masuk ke stack). Kondisi > 0 lebih aman digunakan.
+
+# 2.4 Latihan Praktikum
+## Code Program
+<img width="1354" height="638" alt="image" src="https://github.com/user-attachments/assets/02dedf9f-d0e9-4c4f-a805-83c8c0b91f9d" />
+<img width="722" height="1013" alt="image" src="https://github.com/user-attachments/assets/bf05eacc-24c4-4dba-96f8-ad6ae629c489" />
+<img width="744" height="959" alt="image" src="https://github.com/user-attachments/assets/c7af6522-17ab-482b-88c7-925a697d3eae" />
+
+## Hasil Running
+<img width="486" height="927" alt="image" src="https://github.com/user-attachments/assets/c4e50652-3a74-4764-9694-354874c37140" />
+
