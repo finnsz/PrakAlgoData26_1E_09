@@ -34,7 +34,7 @@ public class Main {
 
                     antrian.enqueue(new Pembeli(nama, hp, noAntrian));
                     System.out.println("Antrian berhasil ditambahkan dengan nomor: " + noAntrian);
-                    noAntrian++; // Increment otomatis untuk pembeli berikutnya [cite: 466]
+                    noAntrian++;
                     break;
 
                 case 2:
