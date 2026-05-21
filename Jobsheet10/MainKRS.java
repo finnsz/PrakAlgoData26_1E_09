@@ -1,7 +1,5 @@
 package Jobsheet10;
-
 import java.util.Scanner;
-
 public class MainKRS {
 
     public static void menu() {

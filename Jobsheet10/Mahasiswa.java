@@ -1,5 +1,4 @@
 package Jobsheet10;
-
 public class Mahasiswa {
     String nim, nama, prodi, kelas;
 

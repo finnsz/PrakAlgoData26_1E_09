@@ -1,5 +1,4 @@
 package Jobsheet10;
-
 public class QueueKRS {
 Mahasiswa[] data;
     int front;
