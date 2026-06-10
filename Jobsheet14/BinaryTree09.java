@@ -126,7 +126,6 @@ public class BinaryTree09 {
         System.out.println("\nMahasiswa dengan IPK di atas " + batasIPK + ":");
         tampilMahasiswaIPKdiAtasRekursif(root, batasIPK);
     }
-
     private void tampilMahasiswaIPKdiAtasRekursif(Node09 node, double batasIPK) {
         if (node != null) {
             tampilMahasiswaIPKdiAtasRekursif(node.left, batasIPK);
@@ -226,5 +225,7 @@ public class BinaryTree09 {
                 successor.left = current.left;
             }
         }
+
     }
+    
 }
